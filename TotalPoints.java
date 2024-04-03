@@ -4,9 +4,9 @@ public class TotalPoints {
 
         int points = 0;
         for (String e : games){
-            if (Integer.valueOf(e.charAt(0)) > Integer.valueOf(e.charAt(2))){
+            if ((int) e.charAt(0) > (int) e.charAt(2)){
                 points = points+3;
-            } else if (Integer.valueOf(e.charAt(0)).equals(Integer.valueOf(e.charAt(2)))) {
+            } else if (Integer.valueOf(e.charAt(0)).equals((int) e.charAt(2))) {
                 points = points +1;
             }
         }
