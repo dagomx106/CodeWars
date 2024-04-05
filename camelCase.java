@@ -1,6 +1,6 @@
 package codewars;
 
-class Solution {
+class camelCase {
     public static String camelCase(String input) {
 
         System.out.println(input.replaceAll("([A-Z])", " $1"));
