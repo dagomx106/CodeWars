@@ -7,7 +7,7 @@ public class camelCase2 {
         String[] strings = str.split(" ");
         StringBuilder stringBuilder=new StringBuilder();
         for (String string : strings) {
-            if (string.length()>0){
+            if (!string.isEmpty()){
                 stringBuilder.append(string.replaceFirst(string.substring(0, 1), string.substring(0, 1).toUpperCase()));
             }
 
