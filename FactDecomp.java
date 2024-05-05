@@ -1,5 +1,7 @@
 package codewars;
 
+import java.util.Date;
+
 public class FactDecomp {
 
         public static String decomp(int n) {
@@ -28,6 +30,7 @@ public class FactDecomp {
 
     public static void main(String[] args) {
         System.out.println(decomp(22));
+
     }
 
     }
